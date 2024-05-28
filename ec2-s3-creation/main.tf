@@ -3,7 +3,7 @@ resource "aws_instance" "Devi" {
   instance_type = var.instance_type
   key_name = var.key_name
   tags = {
-    Name = "instance"
+    Name = "ec2"
   }
 }
 resource "aws_s3_bucket" "name" { 
